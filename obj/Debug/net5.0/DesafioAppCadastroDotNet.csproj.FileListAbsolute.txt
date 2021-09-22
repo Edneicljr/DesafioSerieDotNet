@@ -1,0 +1,16 @@
+C:\git\DesafioAppCadastroDotNet\bin\Debug\net5.0\DesafioAppCadastroDotNet.exe
+C:\git\DesafioAppCadastroDotNet\bin\Debug\net5.0\DesafioAppCadastroDotNet.deps.json
+C:\git\DesafioAppCadastroDotNet\bin\Debug\net5.0\DesafioAppCadastroDotNet.runtimeconfig.json
+C:\git\DesafioAppCadastroDotNet\bin\Debug\net5.0\DesafioAppCadastroDotNet.runtimeconfig.dev.json
+C:\git\DesafioAppCadastroDotNet\bin\Debug\net5.0\DesafioAppCadastroDotNet.dll
+C:\git\DesafioAppCadastroDotNet\bin\Debug\net5.0\ref\DesafioAppCadastroDotNet.dll
+C:\git\DesafioAppCadastroDotNet\bin\Debug\net5.0\DesafioAppCadastroDotNet.pdb
+C:\git\DesafioAppCadastroDotNet\obj\Debug\net5.0\DesafioAppCadastroDotNet.csproj.AssemblyReference.cache
+C:\git\DesafioAppCadastroDotNet\obj\Debug\net5.0\DesafioAppCadastroDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\DesafioAppCadastroDotNet\obj\Debug\net5.0\DesafioAppCadastroDotNet.AssemblyInfoInputs.cache
+C:\git\DesafioAppCadastroDotNet\obj\Debug\net5.0\DesafioAppCadastroDotNet.AssemblyInfo.cs
+C:\git\DesafioAppCadastroDotNet\obj\Debug\net5.0\DesafioAppCadastroDotNet.csproj.CoreCompileInputs.cache
+C:\git\DesafioAppCadastroDotNet\obj\Debug\net5.0\DesafioAppCadastroDotNet.dll
+C:\git\DesafioAppCadastroDotNet\obj\Debug\net5.0\ref\DesafioAppCadastroDotNet.dll
+C:\git\DesafioAppCadastroDotNet\obj\Debug\net5.0\DesafioAppCadastroDotNet.pdb
+C:\git\DesafioAppCadastroDotNet\obj\Debug\net5.0\DesafioAppCadastroDotNet.genruntimeconfig.cache
