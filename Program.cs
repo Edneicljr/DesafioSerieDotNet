@@ -79,6 +79,9 @@ namespace DesafioAppCadastroDotNet
 
 			Console.Write("Digite o Título da Curso: ");
 			string entradaTitulo = Console.ReadLine();
+            
+            Console.Write("Digite o Endereço Web do Curso: ");
+			string entradaEnderecoWeb = Console.ReadLine();
 
 			Console.Write("Digite a Duracao de Início da Curso: ");
 			int entradaDuracao = int.Parse(Console.ReadLine());
@@ -89,6 +92,7 @@ namespace DesafioAppCadastroDotNet
 			Curso atualizaCurso = new Curso(id: indiceCurso,
 										tema: (Tema)entradaTema,
 										titulo: entradaTitulo,
+                                        enderecoWeb: entradaEnderecoWeb,
 										duracao: entradaDuracao,
 										descricao: entradaDescricao);
 
@@ -130,17 +134,21 @@ namespace DesafioAppCadastroDotNet
 			Console.Write("Digite o Título do Curso: ");
 			string entradaTitulo = Console.ReadLine();
 
-			Console.Write("Digite o Duracao de Início da Curso: ");
+            Console.Write("Digite o Endereço Web do Curso: ");
+			string entradaEnderecoWeb = Console.ReadLine();
+
+			Console.Write("Digite o Duracao em horas do Curso: ");
 			int entradaDuracao = int.Parse(Console.ReadLine());
 
 			Console.Write("Digite a Descrição da Curso: ");
 			string entradaDescricao = Console.ReadLine();
 
 			Curso novaCurso = new Curso(id: repositorio.ProximoId(),
-										tema: (Tema)entradaTema,
-										titulo: entradaTitulo,
-										duracao: entradaDuracao,
-										descricao: entradaDescricao);
+                               tema: (Tema)entradaTema,
+                               titulo: entradaTitulo,
+                               enderecoWeb: entradaEnderecoWeb,
+                               duracao: entradaDuracao,
+                               descricao: entradaDescricao);
 
 			repositorio.Insere(novaCurso);
 		}

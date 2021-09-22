@@ -26,14 +26,6 @@ namespace DesafioAppCadastroDotNet
             this.Excluido = false;
 		}
 
-        public Curso(int id, Tema tema, string titulo, int duracao, string descricao)
-        {
-            Id = id;
-            Tema = tema;
-            Titulo = titulo;
-            Duracao = duracao;
-            Descricao = descricao;
-        }
 
         public override string ToString()
 		{
@@ -42,7 +34,7 @@ namespace DesafioAppCadastroDotNet
             retorno += "Gênero: " + this.Tema + Environment.NewLine;
             retorno += "Titulo: " + this.Titulo + Environment.NewLine;
             retorno += "Descrição: " + this.Descricao + Environment.NewLine;
-			retorno += "Descrição: " + this.EnderecoWeb + Environment.NewLine;
+			retorno += "Endereço Web: " + this.EnderecoWeb + Environment.NewLine;
             retorno += "Ano de Início: " + this.Duracao + Environment.NewLine;
             retorno += "Excluido: " + this.Excluido;
 			return retorno;
